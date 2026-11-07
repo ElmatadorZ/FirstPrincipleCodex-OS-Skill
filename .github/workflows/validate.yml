@@ -74,6 +74,24 @@ jobs:
           print("  OK  all relative links resolve")
           PY
 
+  plugin:
+    name: claude code plugin
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Install Claude Code CLI (pinned)
+        run: npm install -g @anthropic-ai/claude-code@2.1.309
+      - name: Validate marketplace + plugin manifests
+        run: claude plugin validate . --strict
+      - name: Plugin skill copy matches SKILL.md + references/
+        run: |
+          cmp SKILL.md skills/first-principle-codex-os/SKILL.md
+          diff -r references skills/first-principle-codex-os/references
+          echo "  OK  in sync"
+
   hygiene:
     name: repo hygiene
     runs-on: ubuntu-latest
