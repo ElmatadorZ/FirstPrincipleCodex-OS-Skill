@@ -40,18 +40,34 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Check relative markdown links
+      # Markdown links AND backticked paths such as `references/CODEX_KALAMA.md`:
+      # SKILL.md points to its references in backticks, and in v1.0 all six pointed
+      # at references/ while the folder was Reference/ -- invisible to a link check.
+      - name: Check relative links and referenced paths
         run: |
           python - <<'PY'
           import pathlib, re, sys
           bad = []
+          root = pathlib.Path('.').resolve()
+          def exists_exact(base, rel):
+              here = base
+              for part in pathlib.PurePosixPath(rel).parts:
+                  if part == '..': here = here.parent; continue
+                  if part == '.': continue
+                  if not here.is_dir() or part not in {p.name for p in here.iterdir()}: return False
+                  here = here / part
+              return True
           for md in pathlib.Path('.').rglob('*.[mM][dD]'):
-              if '.git' in md.parts: continue
-              for link in re.findall(r'\[[^\]]*\]\(([^)#]+)\)', md.read_text(encoding='utf-8')):
+              if {'.git', 'evals'} & set(md.parts): continue
+              text = md.read_text(encoding='utf-8')
+              for link in re.findall(r'\[[^\]]*\]\(([^)#]+)\)', text):
                   if link.startswith(('http://', 'https://', 'mailto:')): continue
-                  target = (md.parent / link).resolve()
-                  if not target.exists():
+                  if not exists_exact(md.parent.resolve(), link):
                       bad.append(f"{md}: {link}")
+              for path in re.findall(r'`((?:references|example|tools|tests)/[^`\s]+)`', text):
+                  if '*' in path: continue  # a glob in prose, not a file reference
+                  if not exists_exact(root, path):
+                      bad.append(f"{md}: `{path}`")
           if bad:
               print("Broken relative links:")
               print("\n".join(f"  {b}" for b in bad)); sys.exit(1)

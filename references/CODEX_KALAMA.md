@@ -61,6 +61,40 @@ Verdict     : ACCEPT / REJECT / INFERRED (requires explicit labeling)
 
 ---
 
+## FPCOS Kalama10 vs the Kalama Sutta
+
+FPCOS's Kalama10 is an **adaptation** for modern evidence checking. It is inspired by the
+Kalama Sutta (Aṅguttara Nikāya 3.65) but its wording and numbering are FPCOS's own. Do not
+cite an FPCOS test number as the sutta's, and do not present FPCOS wording as a translation.
+
+The sutta's ten grounds that are **not by themselves** reasons to accept a teaching, in the
+sutta's order (wording follows common English translations such as Bhikkhu Bodhi's):
+
+| # | Pāli | Ground |
+|---|---|---|
+| 1 | anussava | oral tradition / repeated hearing |
+| 2 | paramparā | lineage of teaching |
+| 3 | itikirā | hearsay / report |
+| 4 | piṭakasampadā | a collection of scriptures |
+| 5 | takka | logical reasoning |
+| 6 | naya | inferential reasoning |
+| 7 | ākāraparivitakka | reasoned reflection on appearances |
+| 8 | diṭṭhinijjhānakkhanti | acceptance of a view after pondering it |
+| 9 | bhabbarūpatā | the seeming competence of a speaker |
+| 10 | samaṇo no garu | "the ascetic is our teacher" |
+
+The sutta's own test is what follows: accept what, when practised, you know for yourself
+leads to welfare and not to harm. FPCOS turns that into evidence checking (observed
+consequence, independent testing, operational tests).
+
+Rough correspondence (an interpretation, not a scholarly mapping): FPCOS 1 ↔ sutta 1 and 3;
+2 ↔ 2; 3 ↔ 5; 4 ↔ 6 (loosely); 6 ↔ 4 and 9; 7 ↔ 8; 8 ↔ 10; 10 ↔ 7 (loosely).
+FPCOS 5 (preference) and 9 (consensus) have no direct counterpart in the sutta's list.
+
+In output, name a test by its meaning ("single source", "authority alone").
+
+---
+
 ## The Proof = Understanding Axiom
 
 Fully proven = can answer all four:

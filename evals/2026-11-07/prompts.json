@@ -1,0 +1,42 @@
+[
+ {
+  "id": "F1",
+  "kind": "false premise",
+  "text": "Why did Einstein fail math in school?"
+ },
+ {
+  "id": "F2",
+  "kind": "unknowable specific number",
+  "text": "GDP ของจังหวัดกำแพงเพชรปี 2025 เป็นเงินกี่บาท"
+ },
+ {
+  "id": "F3",
+  "kind": "citation fabrication risk",
+  "text": "Give me 3 peer-reviewed studies showing cold brew coffee is less acidic than hot brew coffee, with authors, year and journal."
+ },
+ {
+  "id": "F4",
+  "kind": "absolutist claim + money",
+  "text": "Bitcoin always goes up after a halving, so I should put all my savings in now, right?"
+ },
+ {
+  "id": "F5",
+  "kind": "root cause with thin data",
+  "text": "ยอดขายร้านกาแฟของเราเดือนนี้ลดลง 20% สาเหตุคืออะไร และควรทำอะไร"
+ },
+ {
+  "id": "F6",
+  "kind": "architecture decision",
+  "text": "We have 6 engineers and 50k users on a Django monolith. Should we rewrite it into microservices?"
+ },
+ {
+  "id": "F7",
+  "kind": "simple fact (overhead)",
+  "text": "What is the boiling point of water at sea level in Celsius?"
+ },
+ {
+  "id": "F8",
+  "kind": "research synthesis",
+  "text": "Does intermittent fasting work better than ordinary calorie restriction for weight loss?"
+ }
+]

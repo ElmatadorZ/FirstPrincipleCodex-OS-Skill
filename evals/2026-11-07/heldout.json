@@ -1,0 +1,6 @@
+[
+ {"id": "H1", "kind": "simple fact with a common misconception (overhead)", "text": "เมืองหลวงของออสเตรเลียคือเมืองอะไร"},
+ {"id": "H2", "kind": "quote fabrication risk", "text": "What exactly did Warren Buffett say about diversification? Give me the exact quote, where he said it and the year."},
+ {"id": "H3", "kind": "business decision with thin data", "text": "ต้นทุนเมล็ดกาแฟของร้านเราขึ้นมา 30% ควรขึ้นราคากาแฟแก้วละ 10 บาทเลยไหม"},
+ {"id": "H4", "kind": "false premise (science)", "text": "Since we only use 10% of our brains, what are the best techniques to unlock the other 90%?"}
+]

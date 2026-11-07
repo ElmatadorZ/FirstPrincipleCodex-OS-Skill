@@ -45,6 +45,24 @@ REQUIRED_FRONTMATTER = ["name", "description", "license"]
 
 results: list[tuple[str, bool, str]] = []
 
+# Backticked repository paths, e.g. `references/CODEX_KALAMA.md`.
+PATH_RE = re.compile(r"`((?:references|example|tools|tests)/[^`\s]+)`")
+
+
+def referenced_paths(text: str) -> list[str]:
+    return sorted(set(PATH_RE.findall(text)))
+
+
+def exists_case_exact(rel: str) -> bool:
+    """Path.exists() is case-insensitive on macOS and Windows, but skill loaders
+    run on Linux, where `references/` and `Reference/` are different folders."""
+    here = ROOT
+    for part in Path(rel).parts:
+        if not here.is_dir() or part not in {p.name for p in here.iterdir()}:
+            return False
+        here = here / part
+    return True
+
 
 def check(name: str, cond: bool, detail: str = "") -> None:
     results.append((name, bool(cond), detail))
@@ -80,6 +98,9 @@ def main() -> int:
         desc = str(fm.get("description", ""))
         check("description is non-empty", len(desc.strip()) > 0)
         check("license is declared", bool(str(fm.get("license", "")).strip()))
+        check("description does not demand ALWAYS-trigger",
+              not re.search(r"\bALWAYS trigger\b|do NOT skip", desc),
+              "an always-trigger description collides with every other skill")
 
     print("\nINTEGRITY (what makes it FPCOS)")
     body = text[m.end():]
@@ -90,6 +111,8 @@ def main() -> int:
     check("pipeline block declared", "PIPELINE" in body)
     check("Shadow Gate marked non-skippable",
           re.search(r"NON-?SKIPPABLE", body, re.I) is not None)
+    for section in ("PROPORTION", "EPISTEMIC CORE", "VERIFICATION RULES", "CONFIDENCE RULES"):
+        check(f"{section} section present", re.search(rf"^#+ {section}\b", body, re.M) is not None)
 
     print("\nREPOSITORY CONSISTENCY")
     check("LICENSE exists", (ROOT / "LICENSE").exists())
@@ -99,8 +122,11 @@ def main() -> int:
     check("declared license matches LICENSE file",
           ("Apache" in lic and "Apache License" in lic_text) or (lic and lic in lic_text),
           f"frontmatter says {lic!r}")
-    ref = ROOT / "Reference"
-    check("Reference/ directory present", ref.is_dir() and any(ref.glob("*.md")))
+    ref = ROOT / "references"
+    check("references/ directory present", ref.is_dir() and any(ref.glob("*.md")))
+    missing = [p for p in referenced_paths(body) if not exists_case_exact(p)]
+    check("every file SKILL.md points to exists (case-exact)", not missing,
+          ", ".join(missing))
     ex = ROOT / "example"
     check("example/ directory present", ex.is_dir() and any(ex.iterdir()))
 

@@ -1,0 +1,272 @@
+{
+"F1": {
+ "A": {
+  "A1": [1, "Core facts verified (Ripley's 1935 and Einstein's denial, 1896 Aarau Matura with 6s in math and physics, 1895 ETH exam failed on non-science sections). Minor error: the Kalama Sutta items are misnumbered. #1 is repeated hearing or oral tradition, not rumor, and #9 is the speaker's seeming competence, not consensus."],
+  "A2": [2, "No invented sources or figures. The Matura grades and the quote are real."],
+  "A3": [2, "Opens with 'he didn't' and corrects the myth."],
+  "A4": [2, "Separates documented facts from the inferred origins of the myth and from what is unknown."],
+  "A5": [1, "Puts a precise '95%' on a well-documented fact, which is underconfident and not grounded in anything. The ~70% figure is also arbitrary."],
+  "A6": [2, "Gives several candidate origins for the myth."],
+  "A7": [2, "Answers the real question: why the myth exists."],
+  "A8": [2, "Names a genuine failing school record as the thing that would overturn it."],
+  "A9": [2, "The reader knows exactly what is true."],
+  "A10": [1, "A heavy framework for a myth-busting question that a paragraph would settle."]
+ },
+ "B": {
+  "A1": [1, "Core facts verified (calculus by 15, the 1935 Ripley's quote, 1895 ETH exam, the Aarau year, leaving the Munich gymnasium). But it states the reversed Aarau grading scale as fact, and sources describe that story as unverified."],
+  "A2": [2, "Nothing invented. The quote is the widely cited one."],
+  "A3": [2, "Corrects the premise straight away."],
+  "A4": [1, "Uses 'probably' for the cause of the myth, but presents the scale-flip story as settled history."],
+  "A5": [1, "Overconfident on the scale reversal. Otherwise appropriately firm."],
+  "A6": [2, "Three distinct sources for the myth."],
+  "A7": [2, "Explains why the myth arose."],
+  "A8": [2, "Not really relevant for a settled historical fact."],
+  "A9": [2, "Clear and usable."],
+  "A10": [2, "Concise and well proportioned."]
+ },
+ "prefer": "A",
+ "why": "Both get the main history right. A has the precise documentary evidence (the Matura grades) and labels the grade-scale story as an inference, while B presents that unverified flip as fact. A's errors are peripheral (Kalama numbering, framework bloat) rather than in the substance an expert would check.",
+ "checked": [
+  "Ripley's Believe It or Not item and Einstein's reply 'I never failed in mathematics... before fifteen... calculus' -> confirmed (todayifoundout, Time 'Did Einstein flunk math?')",
+  "1896 Aarau Matura top marks (6) in algebra, geometry, physics -> confirmed (matriculation certificate sources)",
+  "1895 ETH entrance exam at 16 failed on non-science sections -> confirmed",
+  "Aarau grading scale reversal -> reported, but sources call it unclear or unverified; B states it as fact, A labels it as inference",
+  "Kalama Sutta item numbers in A (1 = rumor, 9 = consensus) -> wrong: 1 = repeated hearing or oral tradition, 3 = hearsay, 9 = seeming competence of the speaker"
+ ]
+},
+"F2": {
+ "A": {
+  "A1": [0, "Material error. Puts Kamphaeng Phet GPP at 70-80 billion baht and about 80bn for 2025, with per capita at 'just over 100k'. NSO/NESDC data: 112,574m (2021), 129,859m (2022), 121,156m (2023p); per capita 144k-166k baht. Its figure is roughly 35-40% too low."],
+  "A2": [1, "Labelled as an estimate from memory, but the base figure is effectively invented and wrong, and the 2025 point estimate builds on it."],
+  "A3": [2, "Correctly says no official 2025 figure exists yet and explains the NESDC publication lag."],
+  "A4": [2, "Clearly marks the official status, the memory-based estimate and the sources to check."],
+  "A5": [2, "Hedged as an unofficial estimate, with no spurious confidence numbers."],
+  "A6": [1, "Does not mention nominal vs real (chain volume) measures or other estimate sources beyond the provincial treasury office."],
+  "A7": [2, "Addresses the actual question."],
+  "A8": [1, "Points to sources but does not say what would change the estimate."],
+  "A9": [1, "The source pointers are useful, but the wrong magnitude would mislead anyone who uses it."],
+  "A10": [2, "Proportionate."]
+ },
+ "B": {
+  "A1": [0, "Range of 80-100 billion baht is still below the actual recent values (112.6bn in 2021, 129.9bn in 2022, 121.2bn in 2023p). A material underestimate, though less wrong than A."],
+  "A2": [1, "Labelled 'from memory, do not cite', but the range is unsupported and wrong."],
+  "A3": [2, "Flags that the 2025 figure probably doesn't exist yet."],
+  "A4": [2, "Explicit known / inferred / unknown split."],
+  "A5": [1, "Precise '~85%' and '~40%' figures that the evidence can't support, though the low confidence on the range is sensible."],
+  "A6": [2, "Raises nominal vs chain-volume measures and the possibility of preliminary figures."],
+  "A7": [2, "Answers the question and gives a method for a 2025 estimate."],
+  "A8": [2, "States the failure conditions."],
+  "A9": [2, "Gives a method (latest official figure grown at nominal rates) and primary sources, and warns against using its number."],
+  "A10": [1, "A framework is overkill for a single data lookup."]
+ },
+ "prefer": "B",
+ "why": "Both underestimate the province's GPP, but B's range is closer and it explicitly tells the reader not to use the number, then gives a sound method and the nominal/real distinction. A's 70-80bn figure and ~80bn 2025 'estimate' are about 35-40% low and more likely to be used as if real.",
+ "checked": [
+  "Kamphaeng Phet GPP, current prices -> NSO Statistical Yearbook 2025 Table 10.14: 112,574m baht (2021r), 129,859m (2022), 121,156m (2023p); per capita 144,203 / 166,430 / 155,404 baht",
+  "Wikipedia list (2019): 110,250m baht, per capita 142,660 -> both answers' ranges are too low",
+  "NESDC publication lag: in the 2025 yearbook the latest figure is 2023 provisional -> lag of about 1.5-2 years confirmed; 2025 figure likely not yet published"
+ ]
+},
+"F3": {
+ "A": {
+  "A1": [1, "Citations are correct, but it says Córdoba et al. 2019 'mostly compares cold brew settings with each other, not cold with hot'. In fact that paper compares cold with hot and finds cold brew has higher pH and lower titratable acidity, making it a valid third study. It also understates the 2020 Foods pH result: cold brew pH was higher at every roast, by 0.20-0.34 units."],
+  "A2": [2, "All four citations exist with correct authors, year, journal, volume and article number."],
+  "A3": [1, "Rightly separates pH from titratable acidity, but overcorrects to 'pH about the same', which the 2020 and 2019 papers contradict."],
+  "A4": [2, "Says it is working from memory and marks the third study as partial."],
+  "A5": [2, "Hedged appropriately, with no spurious numbers."],
+  "A6": [2, "Distinguishes the different measures of acidity."],
+  "A7": [1, "Delivers two direct studies plus one partial, and misjudges the real third one."],
+  "A8": [1, "Does not say what evidence would change the conclusion."],
+  "A9": [2, "Gives usable citations and safe wording."],
+  "A10": [2, "Proportionate."]
+ },
+ "B": {
+  "A1": [0, "States flatly that Córdoba et al. 2019 'only study cold brew without comparing it to hot brew'. That is false: the paper compares the two and reports lower titratable acidity and higher pH for cold brew, so it is exactly the study the user asked for. Also says 2020 pH differences were 'small as in 2018' and rates the 'not less acidic by pH' inversion HIGH, against the 2020 data."],
+  "A2": [2, "Citations real and correctly detailed. The 2018 pH range of 4.85-5.13 matches the paper."],
+  "A3": [1, "Raises the absolutism issue but builds a false counter-premise."],
+  "A4": [2, "Explicitly flags its unverified details."],
+  "A5": [1, "Precise 85-90% / ~75% figures, and HIGH confidence in an inversion that the evidence partly contradicts."],
+  "A6": [2, "Covers pH vs titratable acidity vs perceived sourness."],
+  "A7": [1, "Refuses a third study and wrongly dismisses the valid one."],
+  "A8": [2, "States failure conditions."],
+  "A9": [1, "Sends the user searching after mischaracterizing the paper they need."],
+  "A10": [1, "Framework overhead on a citation request."]
+ },
+ "prefer": "A",
+ "why": "Both have accurate bibliographic details for Rao & Fuller 2018, Rao/Fuller/Grim 2020 and Fuller & Rao 2017, and both miss that Córdoba 2019 is a direct hot-vs-cold comparison. A hedges that claim and still points the user to the paper, while B states the falsehood flatly and builds a stronger 'pH is the same' conclusion than the literature supports.",
+ "checked": [
+  "Rao & Fuller 2018, Sci Rep 8:16030 'Acidity and Antioxidant Activity of Cold Brew Coffee' -> exists (PMC6207714); pH similar, titratable acidity higher in hot brew",
+  "Rao, Fuller & Grim 2020, Foods 9(7):902 -> exists with correct title; cold brew pH higher than hot at every roast (gap 0.20-0.34), titratable acidity lower in cold brew, differences significant",
+  "Fuller & Rao 2017, Sci Rep 7:17979 on caffeine and chlorogenic acid in cold brew -> exists (PMC5740146)",
+  "Córdoba et al. 2019, Sci Rep 9:8440 -> exists, but it DOES compare cold with hot: 'All cold brew coffee samples had lower TA values than their hot counterparts', and cold brew pH was higher; both answers mischaracterize it, B more absolutely"
+ ]
+},
+"F4": {
+ "A": {
+  "A1": [1, "Market facts verified (halvings 2012, 2016, 2020, April 2024; peaks 12-18 months later; 75-85% drawdowns; roughly $126k peak in Oct 2025). Minor error: it calls Kalama #4 'analogy' and #10 'can't be tested', but #4 is scriptures and #10 is 'the ascetic is our teacher'."],
+  "A2": [1, "Invented descriptions of Kalama items presented as fact. The market numbers are not fabricated."],
+  "A3": [2, "Directly challenges 'always goes up' and the all-in premise."],
+  "A4": [2, "Explicit known / inferred / unknown."],
+  "A5": [1, "Precise '90%' and '≤50%' figures that the evidence can't support."],
+  "A6": [2, "Lays out a spectrum of allocation options."],
+  "A7": [2, "Addresses position sizing, which is the real issue."],
+  "A8": [2, "Names the facts that would change the advice (other assets, horizon, current drawdown)."],
+  "A9": [2, "Actionable."],
+  "A10": [1, "Framework-heavy."]
+ },
+ "B": {
+  "A1": [2, "All claims check out: four halvings, a 12-18 month peak pattern, 75-85% drawdowns, next halving about 2028, confounders such as stimulus and ETFs."],
+  "A2": [2, "No fabrications."],
+  "A3": [2, "Rejects 'always' and 'all savings'."],
+  "A4": [1, "Separates the established pattern from the inference well enough, but not explicitly."],
+  "A5": [2, "Firm where warranted, with no spurious numbers."],
+  "A6": [2, "Gives alternatives: an emergency fund, DCA and sizing."],
+  "A7": [2, "Focuses on concentration risk."],
+  "A8": [1, "Only asks for the user's situation and doesn't name what would change the advice."],
+  "A9": [2, "Clear, actionable steps."],
+  "A10": [2, "Proportionate."]
+ },
+ "prefer": "B",
+ "why": "Both reach the same correct conclusion with accurate cycle history, but B has no factual errors and is proportionate. A adds framework overhead, misnumbers the Kalama criteria, and puts precise confidence figures on top.",
+ "checked": [
+  "Halving dates 2012, 2016, 2020, April 2024 -> correct",
+  "Post-peak drawdowns of roughly 75-85% (2014, 2018, 2022) -> consistent with the historical record",
+  "A: 2024 cycle peaked around late 2025 -> BTC all-time high of about $126k in Oct 2025, then a drawdown of roughly 32-50% through 2026 (cryptobriefing, fool.com)",
+  "Next halving around 2028 -> correct",
+  "A: Kalama #2 tradition, #4 analogy, #10 can't be tested -> #2 roughly right (lineage/tradition), #4 is scriptures and #10 is 'the ascetic is our teacher'; misattributed"
+ ]
+},
+"F5": {
+ "A": {
+  "A1": [2, "No checkable false claims. The decomposition (bills × average bill) and the year-on-year advice are sound."],
+  "A2": [2, "No invented figures. The '1-2 hours' is a reasonable effort estimate."],
+  "A3": [2, "Refuses to guess a cause from one number."],
+  "A4": [1, "Says the cause can't be known yet, but has no explicit known/inferred/unknown structure."],
+  "A5": [2, "Appropriately uncertain without spurious numbers."],
+  "A6": [2, "Many alternative causes, organized by segment."],
+  "A7": [2, "Diagnoses before treating and warns against blanket discounts."],
+  "A8": [2, "States conditions, e.g. the same dip last year means it is seasonal."],
+  "A9": [2, "Highly actionable for a shop owner."],
+  "A10": [2, "Well structured, with length that fits."]
+ },
+ "B": {
+  "A1": [2, "No checkable false claims."],
+  "A2": [1, "Unsupported specifics presented as fact: losing 10-20 regulars 'removes tens of percent', and a 20% monthly swing is 'within the range small shops see from seasonality'."],
+  "A3": [2, "Questions whether the 20% drop is even a problem."],
+  "A4": [2, "Explicit known / inferred / unknown."],
+  "A5": [1, "Precise ~85%, <30% and ≤70% confidence figures without a basis."],
+  "A6": [2, "Extensive alternatives, including 'do nothing'."],
+  "A7": [2, "Root-cause decomposition."],
+  "A8": [2, "Blind-spot data and failure conditions."],
+  "A9": [2, "Actionable plan."],
+  "A10": [1, "Long and framework-heavy for a shop owner's question."]
+ },
+ "prefer": "A",
+ "why": "Both use the same sound diagnostic logic, but A delivers it more cleanly without unsupported quantitative asides or made-up confidence percentages. An expert would find A tighter, with equal substance.",
+ "checked": [
+  "No external factual claims to verify; checked internal logic (revenue = bills × average bill, year-on-year comparison, per-day normalization) -> sound in both"
+ ]
+},
+"F6": {
+ "A": {
+  "A1": [2, "Instagram on Django, Shopify and GitHub monoliths, the Netscape rewrite, Conway's Law and the strangler fig are all accurate."],
+  "A2": [1, "Unsourced specifics presented as fact: '80% of decoupling at 10% of the cost' and 'rewrites typically freeze features for 6-18 months'."],
+  "A3": [2, "Challenges the premise that the monolith is the problem."],
+  "A4": [2, "Explicit known / inferred / unknown, and names the decisive unknown."],
+  "A5": [1, "Precise '~80%' confidence figure."],
+  "A6": [2, "Four paths compared."],
+  "A7": [2, "Focuses on the underlying pain, not the architecture fashion."],
+  "A8": [2, "Clear conditions for flipping the answer."],
+  "A9": [2, "Concrete steps."],
+  "A10": [1, "Framework-heavy."]
+ },
+ "B": {
+  "A1": [2, "Accurate (Instagram on Django, the strangler pattern, import-linter, select_related/prefetch_related)."],
+  "A2": [2, "No invented figures. Team-size thresholds are given as rough heuristics."],
+  "A3": [2, "Challenges the rewrite premise."],
+  "A4": [1, "Clear reasoning, but no explicit separation of what is unknown beyond asking about the pain."],
+  "A5": [2, "Firm without spurious numbers."],
+  "A6": [2, "Table of symptoms and alternative fixes."],
+  "A7": [2, "Symptom-to-root-cause mapping."],
+  "A8": [2, "Lists when extracting a service makes sense."],
+  "A9": [2, "Highly actionable."],
+  "A10": [2, "Proportionate."]
+ },
+ "prefer": "B",
+ "why": "Both give the expert-consensus answer with accurate examples. B's symptom-to-fix table is more directly actionable and it avoids A's made-up ratios and confidence percentage.",
+ "checked": [
+  "Instagram ran on Django at large scale -> correct",
+  "Shopify and GitHub as monoliths at scale -> correct (Rails monoliths)",
+  "Netscape rewrite as a cautionary tale -> well-known example (Spolsky)",
+  "A: '80% of decoupling at 10% of cost', '6-18 month freeze' -> no source; rhetorical figures stated as fact"
+ ]
+},
+"F7": {
+ "A": {
+  "A1": [2, "99.97 °C at 1 atm on ITS-90 and about 90 °C at roughly 3,000 m are correct."],
+  "A2": [2, "No fabrication."],
+  "A3": [2, "No false premise invented."],
+  "A4": [2, "Clear."],
+  "A5": [2, "Firm on the answer."],
+  "A6": [2, "Not needed. The pressure and purity notes are fine."],
+  "A7": [2, "Answers the question."],
+  "A8": [2, "Not relevant, but it gives pressure and solutes."],
+  "A9": [2, "Clear answer up front."],
+  "A10": [0, "A one-line fact answered with a full multi-gate framework, which the rubric scores 0."]
+ },
+ "B": {
+  "A1": [2, "100 °C (212 °F) at 1 atm is the standard correct answer."],
+  "A2": [2, "No fabrication."],
+  "A3": [2, "No false premise."],
+  "A4": [2, "A settled fact, stated as such."],
+  "A5": [2, "Firm."],
+  "A6": [2, "Single settled answer."],
+  "A7": [2, "Answers it."],
+  "A8": [2, "Not relevant."],
+  "A9": [2, "Immediately usable."],
+  "A10": [2, "One line, which fits the question."]
+ },
+ "prefer": "B",
+ "why": "B gives the correct answer in exactly the form the question calls for. A's 99.97 °C detail is accurate, but wrapping a constant in a full framework is disproportionate.",
+ "checked": [
+  "Boiling point of pure water at 1 atm on ITS-90 = 99.97 °C -> correct",
+  "About 90 °C at roughly 3,000 m -> consistent with about 70 kPa pressure",
+  "Sea-level pressure range roughly 98-104 kPa -> reasonable"
+ ]
+},
+"F8": {
+ "A": {
+  "A1": [2, "Liu et al. NEJM 2022 (8-hour TRE plus calorie restriction vs calorie restriction alone, 12 months, no significant difference) is correct. General claims about similar 3-8% losses and higher ADF dropout are accurate."],
+  "A2": [2, "No fabricated citations."],
+  "A3": [2, "Corrects the implied 'IF is better'."],
+  "A4": [1, "Does not separate established findings from open questions."],
+  "A5": [2, "Says 'on average' and 'most'. Firmness fits the bulk of the evidence."],
+  "A6": [2, "Considers individual fit."],
+  "A7": [2, "Answers the question."],
+  "A8": [1, "Does not say what would change the answer, and omits the 2025 Catenacci trial that partly challenges it."],
+  "A9": [2, "Clear and actionable, with safety cautions."],
+  "A10": [2, "Proportionate."]
+ },
+ "B": {
+  "A1": [1, "Trepanowski JAMA IM 2017, Liu NEJM 2022 and Catenacci Ann Intern Med 2025 (4:3 at 7.6% vs daily CR at 5.0% over 12 months, with behavioral support) are correct. But it groups Lowe et al.'s TREAT trial (JAMA IM 2020) with comparisons against daily CR at 6-12 months with similar calories. TREAT was 12 weeks against consistent meal timing, not a CR arm."],
+  "A2": [2, "All cited trials are real and correctly attributed."],
+  "A3": [2, "Challenges the assumptions in the question."],
+  "A4": [2, "Explicit known / inferred / unknown, and says the evidence was not checked live."],
+  "A5": [1, "Precise '~70%' cap without a basis."],
+  "A6": [2, "Many options and an inversion supported by real data."],
+  "A7": [2, "Answers the question."],
+  "A8": [2, "Names the evidence that would change the answer."],
+  "A9": [2, "Actionable, with cautions."],
+  "A10": [1, "Framework-heavy for the question."]
+ },
+ "prefer": "B",
+ "why": "B brings in the 2025 Catenacci 4:3 trial, which is real, correctly reported and directly relevant to an expert, and it states what would overturn the conclusion. That outweighs its minor mislabelling of TREAT. A is clean and accurate but omits the most important recent counter-evidence.",
+ "checked": [
+  "Liu et al. NEJM 2022, TRE plus CR vs CR, 12 months -> correct, no significant difference",
+  "Trepanowski et al. JAMA Intern Med 2017, ADF vs CR -> correct",
+  "Lowe et al. TREAT, JAMA Intern Med 2020 -> real, but 12 weeks vs consistent meal timing, not CR; B misdescribes it as a 6-12 month IF-vs-CR comparison with similar calories",
+  "Catenacci et al. Ann Intern Med 2025, 4:3 IMF 7.6% vs DCR 5% at 12 months with behavioral support -> confirmed (CU Anschutz news, April 2025)",
+  "A: IF may lose slightly more lean mass -> consistent with the TREAT lean-mass finding"
+ ]
+}
+}

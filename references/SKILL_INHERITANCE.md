@@ -12,10 +12,10 @@ name: "your-skill-name"
 version: "1.0"
 author: "Your Name"
 base_os: "first-principle-codex-os"
-base_os_version: "1.0"
+base_os_version: "1.1"
 description: |
   Your skill description.
-  Built on FPCOS v1.0 by Bunyawat Dechanon (ElmatadorZ).
+  Built on FPCOS v1.1 by Bunyawat Dechanon (ElmatadorZ).
 ---
 ```
 
@@ -43,7 +43,9 @@ INPUT → [L0 Reality Anchor] → [L1 Axiom Gate]
 | L1 Kalama10 | [proof standard for domain claims] |
 | L1 Ariya4 | [problem frame adapted to domain] |
 | L4 Shadow Gate | [5 core protocols + domain extensions] |
-| L5 Confidence | [confidence field format] |
+| L5 Confidence | [confidence level + basis; % only if computed] |
+| Verification Rules | [how specifics are verified or marked in your domain] |
+| Proportion | [which questions in your domain are DIRECT / COMPACT / FULL] |
 ```
 
 ---
@@ -56,16 +58,18 @@ INPUT → [L0 Reality Anchor] → [L1 Axiom Gate]
 | Remove Blind Spot "for expert topics" | Expert ≠ complete. Most needed here. |
 | Domain expertise exempts Kalama10 | Expertise narrows prior, doesn't eliminate verification |
 | Domain extensions replace core 5 | Extensions are additive. Core always runs first. |
-| Remove confidence field "for simple output" | Simple + false certainty = hallucination |
+| Remove confidence from COMPACT/FULL output | Uncalibrated certainty = hallucination |
+| Print the full pipeline on a simple fact | Layers run silently; printing them adds length, not accuracy |
+| Fill a template field with a guessed number | A field you cannot fill truthfully says "unknown" |
 
 ---
 
 ## Attribution Template
 
 ```
-Built on First Principle Codex OS v1.0
+Built on First Principle Codex OS v1.1
 by Bunyawat Dechanon (ElmatadorZ)
-https://github.com/ElmatadorZ/first-principle-codex-os
+https://github.com/ElmatadorZ/FirstPrincipleCodex-OS-Skill
 License: Apache-2.0
 ```
 

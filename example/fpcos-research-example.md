@@ -2,11 +2,11 @@
 name: "fpcos-research-example"
 version: "1.0"
 base_os: "first-principle-codex-os"
-base_os_version: "1.0"
+base_os_version: "1.1"
 description: |
   Example research synthesis skill built on FPCOS. Use for synthesizing sources,
   evaluating research claims, academic literature review.
-  Built on FPCOS v1.0 by Bunyawat Dechanon (ElmatadorZ).
+  Built on FPCOS v1.1 by Bunyawat Dechanon (ElmatadorZ).
 ---
 
 # FPCOS Research Example Skill
@@ -42,6 +42,7 @@ Core: Mirror | Inversion | Blind Spot | Interest Map | Meta-Void
 Domain:
 - Citation Check: Is claim actually supported by cited source?
 - Recency Check: Does newer research update or contradict this?
+- Citation Depth: Describe each study only as far as you have verified it; otherwise mark it.
 
 ## L5 FORMAT
 ```
@@ -49,7 +50,7 @@ Domain:
 Claim: / Evidence grade: / Supporting: / Contradicting: / Net assessment:
 
 📍 CONFIDENCE FIELD
-CONFIDENCE: [X%] | SHADOW VERDICT: [...] | UNKNOWNS: [...] | FAILURE COND: [...]
+CONFIDENCE: [HIGH/MEDIUM/LOW — basis] | SHADOW VERDICT: [...] | UNKNOWNS: [...] | FAILURE COND: [...]
 ```
 
-*Example — FPCOS v1.0 — Bunyawat Dechanon (ElmatadorZ)*
+*Example — FPCOS v1.1 — Bunyawat Dechanon (ElmatadorZ)*
