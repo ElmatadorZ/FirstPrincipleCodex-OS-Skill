@@ -1,0 +1,14 @@
+{
+  "name": "elmatadorz-fpcos",
+  "description": "First Principle Codex OS by ElmatadorZ",
+  "owner": {
+    "name": "Bunyawat Dechanon (ElmatadorZ)"
+  },
+  "plugins": [
+    {
+      "name": "first-principle-codex-os",
+      "source": "./",
+      "description": "Anti-hallucination cognitive base layer: verify or mark, grounded confidence, Shadow Gate"
+    }
+  ]
+}

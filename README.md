@@ -58,7 +58,26 @@ Hallucination in LLMs is not a bug. It is an **emergent property** of systems th
 
 The skill is `SKILL.md` plus the `references/` folder it loads on demand. Keep them together.
 
-**Claude Code** (personal skill):
+**Claude Code (CLI) — recommended:**
+
+```bash
+claude plugin marketplace add ElmatadorZ/FirstPrincipleCodex-OS-Skill
+claude plugin install first-principle-codex-os@elmatadorz-fpcos
+```
+
+Or inside a Claude Code session:
+
+```
+/plugin marketplace add ElmatadorZ/FirstPrincipleCodex-OS-Skill
+/plugin install first-principle-codex-os@elmatadorz-fpcos
+```
+
+The skill then loads on qualifying questions, or call it directly as
+`/first-principle-codex-os:first-principle-codex-os`. Update with
+`claude plugin update first-principle-codex-os@elmatadorz-fpcos`; remove with
+`claude plugin uninstall first-principle-codex-os@elmatadorz-fpcos`.
+
+**Claude Code — manual** (personal skill, no marketplace):
 
 ```bash
 git clone https://github.com/ElmatadorZ/FirstPrincipleCodex-OS-Skill
@@ -196,6 +215,8 @@ fpcos/
 │   └── fpcos-research-example.md
 ├── tools/validate_skill.py           ← installability + integrity checker
 ├── tests/test_skill_contract.py      ← contract tests (run in CI)
+├── .claude-plugin/                   ← plugin.json + marketplace.json (Claude Code CLI install)
+├── skills/first-principle-codex-os/  ← plugin copy of SKILL.md + references/ (tools/sync_plugin_skill.py)
 ├── evals/2026-11-07/                 ← blind A/B test: prompts, answers, grades, aggregate.py
 └── .github/
     ├── workflows/validate.yml        ← CI: skill integrity · tests · links · hygiene

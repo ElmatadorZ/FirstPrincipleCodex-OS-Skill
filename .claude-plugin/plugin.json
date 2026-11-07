@@ -1,0 +1,18 @@
+{
+  "name": "first-principle-codex-os",
+  "description": "FPCOS: anti-hallucination base layer for Claude. Known/Inferred/Unknown kept apart, every specific verified or marked, a Shadow Gate that always runs, confidence stated with its basis, and output sized to the question. Blind-evaluated against no skill.",
+  "version": "1.1.0",
+  "author": {
+    "name": "Bunyawat Dechanon (ElmatadorZ)"
+  },
+  "homepage": "https://github.com/ElmatadorZ/FirstPrincipleCodex-OS-Skill",
+  "repository": "https://github.com/ElmatadorZ/FirstPrincipleCodex-OS-Skill",
+  "license": "Apache-2.0",
+  "keywords": [
+    "reasoning",
+    "anti-hallucination",
+    "first-principles",
+    "epistemics",
+    "skill"
+  ]
+}

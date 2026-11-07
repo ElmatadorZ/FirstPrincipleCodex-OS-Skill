@@ -40,6 +40,10 @@ substance and stay non-removable.
   FPCOS runs.
 
 ### Added
+- **Claude Code plugin**: `claude plugin marketplace add ElmatadorZ/FirstPrincipleCodex-OS-Skill`
+  then `claude plugin install first-principle-codex-os@elmatadorz-fpcos`. The plugin copy in
+  `skills/first-principle-codex-os/` is kept identical by `tools/sync_plugin_skill.py`, a test
+  and a CI job that runs `claude plugin validate --strict`.
 - `evals/2026-11-07/`: prompts, rubric, every answer, both graders' scores and the
   unblinding keys, for v1.0 vs v1.1 vs no skill, plus 4 held-out prompts.
 - Validator checks and contract tests for all of the above (18 tests, 27 validator checks).
