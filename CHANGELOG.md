@@ -18,7 +18,7 @@ substance and stay non-removable.
   The folder is now `references/`.
 - **CI could not see it.** The link check only read Markdown-style links. The validator,
   the CI link job and the tests now check backticked paths too, case-exactly.
-- `tests/__pycache__/` was committed; it is removed and ignored.
+- A compiled `__pycache__` folder under tests was committed; it is removed and ignored.
 
 ### Changed
 - **Proportion modes** (DIRECT / COMPACT / FULL): every layer still runs on every task,
