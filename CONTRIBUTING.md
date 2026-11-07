@@ -14,7 +14,7 @@ Thank you for your interest in contributing to First Principle Codex OS.
 - Bug reports on logical inconsistencies in the layer system
 
 ### ❌ Not Accepted
-- Changes to the 5 core Skill Interface Contract requirements (L0, L1, L4, L5 are fixed)
+- Changes that remove or weaken the core Skill Interface Contract requirements (L0, L1, L4, L5 are fixed)
 - Modifications that weaken the Kalama10 proof standard
 - Removal of the Shadow Gate or any of its 5 protocols
 - License term modifications

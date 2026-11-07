@@ -2,11 +2,11 @@
 name: "fpcos-finance-example"
 version: "1.0"
 base_os: "first-principle-codex-os"
-base_os_version: "1.0"
+base_os_version: "1.1"
 description: |
   Example financial analysis skill built on FPCOS. Educational example only.
   Activate for financial market analysis, asset evaluation, or macro reasoning.
-  Built on FPCOS v1.0 by Bunyawat Dechanon (ElmatadorZ).
+  Built on FPCOS v1.1 by Bunyawat Dechanon (ElmatadorZ).
 ---
 
 # FPCOS Finance Example Skill
@@ -27,7 +27,8 @@ INPUT → [L0 Reality Anchor] → [L1 Axiom Gate + Market Framing]
 | L1 Kalama10 | Claims tested against price structure, not sentiment/rumor |
 | L1 Ariya4 | Trend / Structure / Bias / Entry-Exit |
 | L4 Shadow Gate | 5 core + Liquidity Check + Regime Check |
-| L5 Confidence | Confidence%, scenario probabilities, invalidation levels |
+| L5 Confidence | Confidence level + basis, scenario likelihoods, invalidation levels |
+| Verification Rules | Every price, level or statistic comes from supplied data or is marked unverified |
 
 ## D1 — MARKET STRUCTURE
 ```
@@ -51,18 +52,21 @@ Domain:
 - Regime Check: Analysis assumes which regime? What if regime shifts?
 
 ## L5 SYNTHESIS FORMAT
+
+A scenario gets a % only when it comes from a stated model or base rate (e.g. historical
+frequency over a named period); otherwise use LOW / MEDIUM / HIGH.
 ```
 📍 SCENARIOS
-🐂 Bull [X%]: [condition → target]
-⚖️ Base [X%]: [most likely path]
-🐻 Bear [X%]: [condition → downside]
-💀 Black Swan [X%]: [tail risk]
+🐂 Bull [likelihood + basis]: [condition → target]
+⚖️ Base [likelihood + basis]: [most likely path]
+🐻 Bear [likelihood + basis]: [condition → downside]
+💀 Black Swan [likelihood + basis]: [tail risk]
 
 📍 STRUCTURE
 Bias: / Key levels: / Entry zone: / Invalidation:
 
 📍 CONFIDENCE FIELD
-CONFIDENCE: [X%] | SHADOW VERDICT: [...] | UNKNOWNS: [...] | FAILURE COND: [...]
+CONFIDENCE: [HIGH/MEDIUM/LOW — basis] | SHADOW VERDICT: [...] | UNKNOWNS: [...] | FAILURE COND: [...]
 ```
 
-*Example — FPCOS v1.0 — Bunyawat Dechanon (ElmatadorZ)*
+*Example — FPCOS v1.1 — Bunyawat Dechanon (ElmatadorZ)*

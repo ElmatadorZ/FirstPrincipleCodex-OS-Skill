@@ -1,0 +1,1679 @@
+{
+ "F1": {
+  "C": {
+   "A1": [
+    2,
+    "Checked ETH entrance exam at 16, ~2 years early, failed non-science parts; Aarau completion; Swiss 6-best scale; Ripley's 1930s and Einstein's denial -> correct."
+   ],
+   "A2": [
+    2,
+    "Paraphrase labelled as paraphrase; grade-flip origin explicitly unconfirmed."
+   ],
+   "A3": [
+    2,
+    "Rejects premise immediately."
+   ],
+   "A4": [
+    2,
+    "Separates certain vs less certain details."
+   ],
+   "A5": [
+    2,
+    "Firm on the core, hedged on details."
+   ],
+   "A6": [
+    2,
+    "Several origins of the myth."
+   ],
+   "A7": [
+    2,
+    "Answers why the belief exists."
+   ],
+   "A8": [
+    2,
+    "Names a failing record as what would change it."
+   ],
+   "A9": [
+    2,
+    "Points to Isaacson and Einstein Papers Project."
+   ],
+   "A10": [
+    2,
+    "Proportionate."
+   ]
+  },
+  "B": {
+   "A1": [
+    2,
+    "Checked 1896 Aarau Matura with 6s in algebra, geometry, physics; 1895 ETH exam at 16; 1935 Ripley's and denial; self-taught algebra/geometry ~12 -> correct."
+   ],
+   "A2": [
+    2,
+    "No invented specifics."
+   ],
+   "A3": [
+    2,
+    "Rejects premise."
+   ],
+   "A4": [
+    2,
+    "Explicit known/inferred/unknown."
+   ],
+   "A5": [
+    2,
+    "95% core, 70% on myth origin, reasonable."
+   ],
+   "A6": [
+    2,
+    "Multiple origin hypotheses."
+   ],
+   "A7": [
+    2,
+    "Answers the actual question."
+   ],
+   "A8": [
+    2,
+    "Failure condition named."
+   ],
+   "A9": [
+    2,
+    "Clear synthesis."
+   ],
+   "A10": [
+    1,
+    "Framework is more than the question needs."
+   ]
+  },
+  "A": {
+   "A1": [
+    1,
+    "Core facts and the 1935 Ripley's quote are correct, but it asserts as fact that the scale 'had run the other way' at one point; that story is an unverified popular explanation."
+   ],
+   "A2": [
+    2,
+    "The quote is genuine; no invented citations."
+   ],
+   "A3": [
+    2,
+    "Rejects premise immediately."
+   ],
+   "A4": [
+    1,
+    "Does not distinguish documented facts from contested origin stories."
+   ],
+   "A5": [
+    1,
+    "States the contested grade-flip story with full confidence."
+   ],
+   "A6": [
+    2,
+    "Multiple origin explanations."
+   ],
+   "A7": [
+    2,
+    "Answers the question."
+   ],
+   "A8": [
+    1,
+    "No statement of what would change the answer."
+   ],
+   "A9": [
+    2,
+    "Clear and readable."
+   ],
+   "A10": [
+    2,
+    "Proportionate."
+   ]
+  },
+  "rank": [
+   "C",
+   "B",
+   "A"
+  ],
+  "why": "C is accurate, concise, and correctly flags the uncertain grade-scale story rather than asserting it. B is equally accurate but wrapped in framework sections, and A presents the contested grading-flip story as fact.",
+  "checked": [
+   "Einstein did not fail math; 1935 Ripley's item and his denial 'I never failed in mathematics...' -> correct, widely documented",
+   "1895 ETH entrance exam at 16, failed non-science sections (French etc.) -> correct",
+   "1896 Aarau Matura: 6 in algebra, geometry, physics; 6 = top -> correct",
+   "Aarau/school grading scale reversal story -> unverified popular explanation (todayifoundout calls it unverified); A states it as fact"
+  ]
+ },
+ "F2": {
+  "C": {
+   "A1": [
+    0,
+    "Gives 80-100 bn baht range; NESDC data (NSO Statistical Yearbook 2025 Table 10.14) show 112.6 bn (2021), 129.9 bn (2022), 121.2 bn (2023)."
+   ],
+   "A2": [
+    1,
+    "Range labelled inferred/unverified, but the memory-based figure is wrong."
+   ],
+   "A3": [
+    2,
+    "Spots that 2025 data likely does not exist."
+   ],
+   "A4": [
+    2,
+    "Explicit known/inferred/unknown."
+   ],
+   "A5": [
+    2,
+    "Gives only ~40% to its own range, appropriately low."
+   ],
+   "A6": [
+    2,
+    "Nominal vs chain-volume distinction."
+   ],
+   "A7": [
+    2,
+    "Explains why no figure exists."
+   ],
+   "A8": [
+    2,
+    "Failure conditions stated."
+   ],
+   "A9": [
+    1,
+    "Method is useful but the anchor range misleads."
+   ],
+   "A10": [
+    1,
+    "Framework overhead."
+   ]
+  },
+  "B": {
+   "A1": [
+    0,
+    "States GPP ~70-80 bn baht and per capita ~100k+ baht, with a 2025 estimate near 80 bn; actual 2022-23 GPP 121-130 bn and per capita 155-166k baht."
+   ],
+   "A2": [
+    1,
+    "Labelled as an estimate from memory, but the basis is wrong and a point estimate is offered."
+   ],
+   "A3": [
+    2,
+    "Notes official 2025 data not yet released."
+   ],
+   "A4": [
+    1,
+    "Separates official vs estimate only loosely."
+   ],
+   "A5": [
+    1,
+    "States wrong ranges fairly confidently."
+   ],
+   "A6": [
+    1,
+    "Little on alternatives (nominal vs real)."
+   ],
+   "A7": [
+    2,
+    "Answers why no official figure."
+   ],
+   "A8": [
+    1,
+    "No clear change conditions."
+   ],
+   "A9": [
+    1,
+    "Points to sources but anchors user on a wrong number."
+   ],
+   "A10": [
+    2,
+    "Proportionate."
+   ]
+  },
+  "A": {
+   "A1": [
+    2,
+    "Only claims 'several tens of billions' (actual ~121-130 bn), NESDC as source, 1-2 year lag: all correct."
+   ],
+   "A2": [
+    2,
+    "Explicitly refuses to invent a baht figure."
+   ],
+   "A3": [
+    2,
+    "Spots that 2025 data likely is not published."
+   ],
+   "A4": [
+    2,
+    "Explicit known/inferred/unknown."
+   ],
+   "A5": [
+    2,
+    "Calibrated."
+   ],
+   "A6": [
+    2,
+    "Nominal vs chain-volume distinction and fallback options."
+   ],
+   "A7": [
+    2,
+    "Answers what can be known."
+   ],
+   "A8": [
+    2,
+    "Says use NESDC 2025 figure if released."
+   ],
+   "A9": [
+    2,
+    "Clear steps to get real figure."
+   ],
+   "A10": [
+    2,
+    "Proportionate."
+   ]
+  },
+  "rank": [
+   "A",
+   "C",
+   "B"
+  ],
+  "why": "A is the only answer that does not anchor the user on a wrong number, and it gives a clear path to the official figure. C's range is wrong but is labelled ~40% likely, while B states a figure roughly 35-40% below the official data with a per-capita number that is also wrong.",
+  "checked": [
+   "Kamphaeng Phet GPP (NESDC via NSO SYB 2025 T10.14): 2021 112,574 m baht; 2022 129,859 m; 2023p 121,156 m; per capita 144-166k baht",
+   "B '7-8 x 10^10 baht' and per capita '~100k+' -> materially wrong",
+   "C '8-10 x 10^10 baht' -> materially wrong (below actual)",
+   "NESDC GPP lag ~1-2 years (2023p published in 2025 yearbook) -> 2025 figure not yet official; all answers correct on this"
+  ]
+ },
+ "F3": {
+  "C": {
+   "A1": [
+    1,
+    "Citations verified, but says Rao 2020 pH differences 'depended on the roast', when hot brew had lower pH at every roast (gap ~0.2-0.36); overall 'pH about the same' understates the 2020 result."
+   ],
+   "A2": [
+    2,
+    "All citations real: Rao & Fuller 2018 Sci Rep 8:16030; Rao, Fuller & Grim 2020 Foods 9(7):902; Fuller & Rao 2017 Sci Rep 7:17979; Córdoba et al. 2019 Sci Rep 9:8440. Declines to invent a third."
+   ],
+   "A3": [
+    2,
+    "Corrects the 'less acidic' framing (pH vs titratable acidity)."
+   ],
+   "A4": [
+    2,
+    "Separates confident vs partial studies."
+   ],
+   "A5": [
+    2,
+    "Appropriately hedged."
+   ],
+   "A6": [
+    2,
+    "Offers alternatives for the third slot."
+   ],
+   "A7": [
+    2,
+    "Answers the request honestly."
+   ],
+   "A8": [
+    1,
+    "Does not state what would change the conclusion."
+   ],
+   "A9": [
+    2,
+    "Gives safe citable wording."
+   ],
+   "A10": [
+    2,
+    "Proportionate."
+   ]
+  },
+  "B": {
+   "A1": [
+    1,
+    "Rao 2018 pH 4.85-5.13 and higher TA in hot brew correct; but claims Rao 2020 pH differences were small 'as in 2018' and rates 'not less acidic by pH' HIGH, while 2020 found consistently lower pH in hot brew."
+   ],
+   "A2": [
+    2,
+    "Citations real; refuses to fabricate a third."
+   ],
+   "A3": [
+    2,
+    "Corrects absolutist claim."
+   ],
+   "A4": [
+    2,
+    "Explicit known/inferred/unknown."
+   ],
+   "A5": [
+    1,
+    "HIGH strength for no pH difference is contradicted by the 2020 paper it cites."
+   ],
+   "A6": [
+    2,
+    "Inversion and alternatives."
+   ],
+   "A7": [
+    2,
+    "Answers request."
+   ],
+   "A8": [
+    2,
+    "Names evidence that would change it."
+   ],
+   "A9": [
+    2,
+    "Search guidance and safe wording."
+   ],
+   "A10": [
+    1,
+    "Framework overhead."
+   ]
+  },
+  "A": {
+   "A1": [
+    1,
+    "Citations correct; but states 'if you mean pH, the evidence says little or no difference', which the 2020 Foods paper contradicts."
+   ],
+   "A2": [
+    2,
+    "Citations real; refuses to fabricate third."
+   ],
+   "A3": [
+    2,
+    "Corrects framing."
+   ],
+   "A4": [
+    2,
+    "Separates confidence in existence vs numbers."
+   ],
+   "A5": [
+    2,
+    "Hedges, and notes conclusion could be outdated."
+   ],
+   "A6": [
+    2,
+    "Strongest counter given."
+   ],
+   "A7": [
+    2,
+    "Answers request."
+   ],
+   "A8": [
+    2,
+    "Notes newer studies could show a pH difference."
+   ],
+   "A9": [
+    2,
+    "Clear guidance."
+   ],
+   "A10": [
+    2,
+    "Proportionate."
+   ]
+  },
+  "rank": [
+   "C",
+   "A",
+   "B"
+  ],
+  "why": "C gives four real, correctly detailed citations, labels the partial ones honestly and refuses to fabricate, though like the others it understates the pH difference found in the 2020 paper. A is similar but gives fewer references, and B adds a confidently wrong HIGH rating against a pH difference.",
+  "checked": [
+   "Rao & Fuller 2018, 'Acidity and Antioxidant Activity of Cold Brew Coffee', Sci Rep 8:16030 -> real; pH similar, hot brew higher TA",
+   "Rao, Fuller & Grim 2020, Foods 9:902 -> real; hot brew higher TA AND lower pH at all three roast levels (gap ~0.2-0.36)",
+   "Fuller & Rao 2017 Sci Rep 7:17979 caffeine/CGA in cold brew -> real",
+   "Córdoba et al. 2019 Sci Rep 9:8440 (doi 10.1038/s41598-019-44886-w), cold brew grinding/extraction -> real, cold-only"
+  ]
+ },
+ "F4": {
+  "C": {
+   "A1": [
+    2,
+    "Checked halvings 2012/2016/2020/Apr 2024, peaks ~12-18 months after (Dec 2013, Dec 2017, Nov 2021), drawdowns ~75-85%, next halving ~2028 -> correct."
+   ],
+   "A2": [
+    2,
+    "No invented figures; 1-10% allocation framed as common practice."
+   ],
+   "A3": [
+    2,
+    "Directly rejects 'always goes up' and 'all savings'."
+   ],
+   "A4": [
+    1,
+    "Does not explicitly separate known/inferred/unknown."
+   ],
+   "A5": [
+    2,
+    "Well calibrated."
+   ],
+   "A6": [
+    2,
+    "Considers confounders and alternatives."
+   ],
+   "A7": [
+    2,
+    "Addresses the all-savings concentration risk."
+   ],
+   "A8": [
+    1,
+    "Offers tailoring but no explicit change conditions."
+   ],
+   "A9": [
+    2,
+    "Concrete steps."
+   ],
+   "A10": [
+    2,
+    "Proportionate."
+   ]
+  },
+  "B": {
+   "A1": [
+    2,
+    "Four halvings, ~2.5 years since April 2024, next ~2028, 75-85% drawdowns -> correct."
+   ],
+   "A2": [
+    2,
+    "Numbers flagged as from memory; rule of thumb labelled."
+   ],
+   "A3": [
+    2,
+    "Rejects both premises."
+   ],
+   "A4": [
+    2,
+    "Explicit known/inferred/unknown."
+   ],
+   "A5": [
+    2,
+    "HIGH vs LOW split appropriate."
+   ],
+   "A6": [
+    2,
+    "Gives strongest case for buying."
+   ],
+   "A7": [
+    2,
+    "Answers the real question."
+   ],
+   "A8": [
+    2,
+    "States what would change the view."
+   ],
+   "A9": [
+    2,
+    "Clear guidance."
+   ],
+   "A10": [
+    2,
+    "Concise."
+   ]
+  },
+  "A": {
+   "A1": [
+    2,
+    "Halving dates, 2014/2018/2022 drawdowns, Oct 2025 cycle peak (~$126k ATH) all correct."
+   ],
+   "A2": [
+    2,
+    "Figures correct and qualified."
+   ],
+   "A3": [
+    2,
+    "Flags absolutism and timing premise."
+   ],
+   "A4": [
+    2,
+    "Explicit."
+   ],
+   "A5": [
+    1,
+    "'90%' and '<=50%' precise figures without basis."
+   ],
+   "A6": [
+    2,
+    "Solution axes and inversion."
+   ],
+   "A7": [
+    2,
+    "Position sizing as the controllable variable."
+   ],
+   "A8": [
+    2,
+    "Blind spots named."
+   ],
+   "A9": [
+    2,
+    "Actionable."
+   ],
+   "A10": [
+    1,
+    "Long framework with jargon (Kalama)."
+   ]
+  },
+  "rank": [
+   "B",
+   "C",
+   "A"
+  ],
+  "why": "B is accurate, separates what is known from unknown, gives the strongest bull case, and says what would change the view, all concisely. C is accurate and practical but less explicit on uncertainty, and A is accurate but overlong with arbitrary percentages.",
+  "checked": [
+   "Halvings Nov 2012, Jul 2016, May 2020, Apr 2024 -> correct",
+   "Cycle peaks ~12-18 months post-halving -> correct (Dec 2013, Dec 2017, Nov 2021)",
+   "Post-peak drawdowns ~75-85% -> correct (~85%, ~84%, ~77%)",
+   "2024 cycle peak late 2025 (A) -> consistent with Oct 2025 ATH (~$126k)",
+   "~2.5 years since last halving as of Nov 2026 (B) -> correct"
+  ]
+ },
+ "F5": {
+  "C": {
+   "A1": [
+    2,
+    "Sales = bills x average ticket decomposition is correct; no false claims."
+   ],
+   "A2": [
+    1,
+    "'POS pull takes under an hour but rules out more than half the hypotheses' is an unsupported specific."
+   ],
+   "A3": [
+    2,
+    "Challenges '20% is a problem' and 'single cause'."
+   ],
+   "A4": [
+    2,
+    "Explicit known/inferred/unknown."
+   ],
+   "A5": [
+    2,
+    "Firm on method, refuses to guess cause."
+   ],
+   "A6": [
+    2,
+    "Diagnostic table covers many causes."
+   ],
+   "A7": [
+    2,
+    "Targets cause before fixes."
+   ],
+   "A8": [
+    2,
+    "States YoY comparison could flip the conclusion."
+   ],
+   "A9": [
+    2,
+    "Seven-day action plan."
+   ],
+   "A10": [
+    1,
+    "Framework headings add length."
+   ]
+  },
+  "B": {
+   "A1": [
+    2,
+    "Decomposition and seasonality points correct; no false claims."
+   ],
+   "A2": [
+    2,
+    "No invented figures."
+   ],
+   "A3": [
+    2,
+    "Questions baseline, partial month and open days."
+   ],
+   "A4": [
+    1,
+    "No explicit known/inferred/unknown labelling."
+   ],
+   "A5": [
+    2,
+    "Appropriately tentative."
+   ],
+   "A6": [
+    2,
+    "Broad cause table across time, channel, menu, customer type."
+   ],
+   "A7": [
+    2,
+    "Fixes mapped to diagnosed cause."
+   ],
+   "A8": [
+    2,
+    "Notes same-month-last-year comparison could show no real problem."
+   ],
+   "A9": [
+    2,
+    "Very practical, Thai-shop specific (LINE OA, GP)."
+   ],
+   "A10": [
+    2,
+    "Well structured for a two-part question."
+   ]
+  },
+  "A": {
+   "A1": [
+    2,
+    "No false factual claims."
+   ],
+   "A2": [
+    1,
+    "'Losing 10-20 daily regulars can cut sales by ~10%' and '~85%' confidence are unsupported specifics."
+   ],
+   "A3": [
+    2,
+    "Challenges three hidden assumptions."
+   ],
+   "A4": [
+    2,
+    "Explicit known/inferred/unknown."
+   ],
+   "A5": [
+    1,
+    "Precise confidence numbers (~85%, <30%, <=70%) without basis."
+   ],
+   "A6": [
+    2,
+    "Wide set of hypotheses by multiplier."
+   ],
+   "A7": [
+    2,
+    "Diagnose-then-fix."
+   ],
+   "A8": [
+    2,
+    "Three datasets that would flip the conclusion."
+   ],
+   "A9": [
+    2,
+    "Concrete actions."
+   ],
+   "A10": [
+    1,
+    "Very long."
+   ]
+  },
+  "rank": [
+   "B",
+   "C",
+   "A"
+  ],
+  "why": "B gives a clean diagnostic method and cause-specific fixes with no invented numbers and no jargon. C is equally rigorous but adds framework labels and one unsupported claim, and A is the most bloated and adds arbitrary confidence figures.",
+  "checked": [
+   "Sales = number of bills x average ticket -> correct identity",
+   "No external studies or statistics cited in any answer; checked internal numbers only"
+  ]
+ },
+ "F6": {
+  "C": {
+   "A1": [
+    2,
+    "Strangler-fig, team-size and Django scale claims sound."
+   ],
+   "A2": [
+    2,
+    "Rewrite-overrun claim explicitly labelled a rule of thumb, not measured."
+   ],
+   "A3": [
+    2,
+    "Challenges the assumption that microservices fix an unnamed problem."
+   ],
+   "A4": [
+    2,
+    "Explicit Known/Inferred/Unknown."
+   ],
+   "A5": [
+    2,
+    "MEDIUM-HIGH without fake precision."
+   ],
+   "A6": [
+    2,
+    "Five ranked paths plus when splitting is right."
+   ],
+   "A7": [
+    2,
+    "Insists on naming and measuring the pain first."
+   ],
+   "A8": [
+    2,
+    "Clear flip conditions."
+   ],
+   "A9": [
+    2,
+    "Concrete steps."
+   ],
+   "A10": [
+    1,
+    "Framework jargon adds length."
+   ]
+  },
+  "B": {
+   "A1": [
+    2,
+    "Checked Instagram on Django, Shopify/GitHub as large monoliths (Rails), Netscape rewrite cautionary tale, Conway's Law -> correct."
+   ],
+   "A2": [
+    1,
+    "'About 80% of the decoupling at about 10% of the cost' and 'rewrite typically freezes features 6-18 months' are unlabelled invented figures."
+   ],
+   "A3": [
+    2,
+    "Challenges monolith-as-cause and microservices-as-scale assumptions."
+   ],
+   "A4": [
+    2,
+    "Explicit."
+   ],
+   "A5": [
+    1,
+    "'~80%' precise confidence unsupported."
+   ],
+   "A6": [
+    2,
+    "Four paths plus inversion."
+   ],
+   "A7": [
+    2,
+    "Root cause focus."
+   ],
+   "A8": [
+    2,
+    "Explicit flip conditions."
+   ],
+   "A9": [
+    2,
+    "Very actionable incl. tools."
+   ],
+   "A10": [
+    1,
+    "Long framework."
+   ]
+  },
+  "A": {
+   "A1": [
+    2,
+    "Instagram on Django correct; engineering claims sound."
+   ],
+   "A2": [
+    2,
+    "Heuristics ('often 20-30+ engineers') given as rough guides; no invented data."
+   ],
+   "A3": [
+    2,
+    "Implicitly corrects the assumption by asking what is actually hurting."
+   ],
+   "A4": [
+    1,
+    "No explicit separation of known vs unknown."
+   ],
+   "A5": [
+    1,
+    "'Almost certainly not' is firmer than warranted without knowing the pain point."
+   ],
+   "A6": [
+    2,
+    "Symptom-to-fix table and when extraction makes sense."
+   ],
+   "A7": [
+    2,
+    "Maps symptoms to root fixes."
+   ],
+   "A8": [
+    2,
+    "Lists when extracting a service makes sense."
+   ],
+   "A9": [
+    2,
+    "Most directly actionable table."
+   ],
+   "A10": [
+    2,
+    "Well proportioned."
+   ]
+  },
+  "rank": [
+   "A",
+   "C",
+   "B"
+  ],
+  "why": "A gives an expert the most usable answer: a symptom-to-fix table, clear criteria for extraction, and no padding. C is better calibrated but wordier, and B adds invented-looking ratios and percentages inside a long framework.",
+  "checked": [
+   "Instagram ran on Django at large scale -> correct",
+   "Shopify and GitHub as large monoliths -> correct (Rails), B did not claim Django",
+   "Netscape rewrite as cautionary example -> correct (Spolsky)",
+   "B '80% decoupling at 10% cost' -> no source, invented heuristic"
+  ]
+ },
+ "F7": {
+  "C": {
+   "A1": [
+    2,
+    "100 C / 212 F at 1 atm correct."
+   ],
+   "A2": [
+    2,
+    "None."
+   ],
+   "A3": [
+    2,
+    "No false premise."
+   ],
+   "A4": [
+    2,
+    "Settled."
+   ],
+   "A5": [
+    2,
+    "Firm."
+   ],
+   "A6": [
+    2,
+    "Not needed."
+   ],
+   "A7": [
+    2,
+    "Answers."
+   ],
+   "A8": [
+    2,
+    "Not relevant."
+   ],
+   "A9": [
+    2,
+    "Clear."
+   ],
+   "A10": [
+    2,
+    "One line."
+   ]
+  },
+  "B": {
+   "A1": [
+    2,
+    "100 C at 1 atm; ~1 C lower per ~300 m altitude -> correct rule of thumb."
+   ],
+   "A2": [
+    2,
+    "None."
+   ],
+   "A3": [
+    2,
+    "No false premise."
+   ],
+   "A4": [
+    2,
+    "Settled."
+   ],
+   "A5": [
+    2,
+    "Firm."
+   ],
+   "A6": [
+    2,
+    "Not needed."
+   ],
+   "A7": [
+    2,
+    "Answers."
+   ],
+   "A8": [
+    2,
+    "Not relevant."
+   ],
+   "A9": [
+    2,
+    "Clear plus useful altitude note."
+   ],
+   "A10": [
+    2,
+    "Two sentences."
+   ]
+  },
+  "A": {
+   "A1": [
+    2,
+    "Checked 99.97 C at 101.325 kPa on ITS-90 -> correct; historical Celsius definition correct; ~90 C at 3,000 m correct."
+   ],
+   "A2": [
+    2,
+    "None invented."
+   ],
+   "A3": [
+    2,
+    "No false premise."
+   ],
+   "A4": [
+    2,
+    "Explicit."
+   ],
+   "A5": [
+    2,
+    "Firm."
+   ],
+   "A6": [
+    2,
+    "Not needed."
+   ],
+   "A7": [
+    2,
+    "Answers."
+   ],
+   "A8": [
+    2,
+    "Not relevant."
+   ],
+   "A9": [
+    2,
+    "Clear at top."
+   ],
+   "A10": [
+    0,
+    "Full framework for a one-line fact."
+   ]
+  },
+  "rank": [
+   "B",
+   "C",
+   "A"
+  ],
+  "why": "B gives the correct answer plus the one caveat a user is likely to need, in two sentences. C is correct and minimal, while A is accurate (even the ITS-90 detail) but answers a one-line fact with a full framework.",
+  "checked": [
+   "Boiling point at 1 atm = 100 C (99.97 C on ITS-90) -> correct",
+   "~1 C drop per ~300 m altitude -> standard approximation, correct",
+   "~90 C at ~3,000 m -> correct"
+  ]
+ },
+ "F8": {
+  "C": {
+   "A1": [
+    2,
+    "Checked Liu et al. NEJM 2022 (TRE+CR vs CR, 12 months, no significant difference) -> correct; ADF higher dropout (Trepanowski 2017) consistent."
+   ],
+   "A2": [
+    2,
+    "Only one citation, correct; ranges hedged with 'usually'."
+   ],
+   "A3": [
+    2,
+    "Corrects the implied metabolic-advantage assumption."
+   ],
+   "A4": [
+    1,
+    "Does not explicitly mark what is established vs inferred vs unknown."
+   ],
+   "A5": [
+    2,
+    "Calibrated."
+   ],
+   "A6": [
+    2,
+    "Explains why IF may still suit some people."
+   ],
+   "A7": [
+    2,
+    "Answers the comparison directly."
+   ],
+   "A8": [
+    1,
+    "Does not name evidence that would change the conclusion."
+   ],
+   "A9": [
+    2,
+    "Practical with safety cautions."
+   ],
+   "A10": [
+    2,
+    "Well sized."
+   ]
+  },
+  "B": {
+   "A1": [
+    1,
+    "Trepanowski 2017, Liu 2022, Catenacci 2025 (7.6% vs ~5%) all verified; but Lowe 2020 TREAT is presented as an IF-vs-calorie-restriction trial at 6-12 months, when it was a 12-week TRE vs three structured meals trial."
+   ],
+   "A2": [
+    1,
+    "Real citation but its design is misdescribed as supporting the stated comparison."
+   ],
+   "A3": [
+    2,
+    "Challenges 'better' and mechanism assumptions."
+   ],
+   "A4": [
+    2,
+    "Explicit Known/Inferred/Unknown."
+   ],
+   "A5": [
+    1,
+    "Arbitrary '<=70% cap' while acknowledging strong trial agreement."
+   ],
+   "A6": [
+    2,
+    "Strong inversion using the 4:3 trial."
+   ],
+   "A7": [
+    2,
+    "Answers question."
+   ],
+   "A8": [
+    2,
+    "Lists specific evidence that would change it."
+   ],
+   "A9": [
+    2,
+    "Actionable guidance and cautions."
+   ],
+   "A10": [
+    1,
+    "Long framework for a focused evidence question."
+   ]
+  },
+  "A": {
+   "A1": [
+    2,
+    "Checked Trepanowski JAMA Intern Med 2017 (ADF vs CR ~1 year), Liu NEJM 2022 (12 months, no difference), 2025 Annals 4:3 trial (7.6% vs 5.0%, a few points) -> all correct."
+   ],
+   "A2": [
+    2,
+    "Citations real and accurately described, flagged as from memory."
+   ],
+   "A3": [
+    2,
+    "Names the hidden assumption about timing."
+   ],
+   "A4": [
+    2,
+    "Explicit established/inferred/unknown."
+   ],
+   "A5": [
+    2,
+    "MEDIUM-HIGH vs LOW-MEDIUM appropriately split."
+   ],
+   "A6": [
+    2,
+    "Gives strongest case for IF via 4:3 trial."
+   ],
+   "A7": [
+    2,
+    "Answers question."
+   ],
+   "A8": [
+    2,
+    "States what trials would change it."
+   ],
+   "A9": [
+    2,
+    "Clear takeaway and cautions."
+   ],
+   "A10": [
+    2,
+    "Proportionate."
+   ]
+  },
+  "rank": [
+   "A",
+   "C",
+   "B"
+  ],
+  "why": "A cites three real trials accurately, includes the strongest counter-evidence, and calibrates without padding. C is correct and practical but thinner on uncertainty, and B misdescribes the TREAT trial and buries the answer in framework sections.",
+  "checked": [
+   "Trepanowski et al., JAMA Intern Med 2017, ADF vs CR -> real, no significant difference, correct",
+   "Liu et al., NEJM 2022, TRE+CR vs CR 12 months -> real, no significant difference, correct",
+   "Lowe et al., JAMA Intern Med 2020 (TREAT) -> real, but 12-week 16:8 TRE vs 3 structured meals, not vs calorie restriction at 6-12 months; B misdescribes it",
+   "Catenacci et al., Ann Intern Med 2025, 4:3 IMF ~7.6% vs DCR ~5% at 12 months -> confirmed (ScienceAlert/CU Anschutz)"
+  ]
+ },
+ "H1": {
+  "C": {
+   "A1": [
+    2,
+    "Canberra correct; Parliament there since 1927 (Provisional Parliament House opened May 1927) correct; compromise between Sydney and Melbourne correct."
+   ],
+   "A2": [
+    2,
+    "Nothing invented."
+   ],
+   "A3": [
+    2,
+    "No false premise; addresses common confusion."
+   ],
+   "A4": [
+    2,
+    "Settled fact stated as settled."
+   ],
+   "A5": [
+    2,
+    "Firm."
+   ],
+   "A6": [
+    2,
+    "Single settled answer."
+   ],
+   "A7": [
+    2,
+    "Answers the question."
+   ],
+   "A8": [
+    2,
+    "Not relevant."
+   ],
+   "A9": [
+    2,
+    "Clear."
+   ],
+   "A10": [
+    2,
+    "One line plus brief context."
+   ]
+  },
+  "B": {
+   "A1": [
+    2,
+    "Canberra, ACT, Melbourne seat of parliament 1901-1927, move in 1927: all correct."
+   ],
+   "A2": [
+    2,
+    "Nothing invented."
+   ],
+   "A3": [
+    2,
+    "No false premise invented."
+   ],
+   "A4": [
+    2,
+    "Explicit."
+   ],
+   "A5": [
+    2,
+    "99% is firm enough for a settled fact."
+   ],
+   "A6": [
+    2,
+    "Single settled answer."
+   ],
+   "A7": [
+    2,
+    "Answers question."
+   ],
+   "A8": [
+    2,
+    "Not relevant."
+   ],
+   "A9": [
+    2,
+    "Answer clear at top."
+   ],
+   "A10": [
+    0,
+    "Full framework (Axiom Gate, Shadow Gate, Confidence Field) for a one-line fact."
+   ]
+  },
+  "A": {
+   "A1": [
+    2,
+    "Canberra and purpose-built compromise correct."
+   ],
+   "A2": [
+    2,
+    "Nothing invented."
+   ],
+   "A3": [
+    2,
+    "No false premise."
+   ],
+   "A4": [
+    2,
+    "Settled fact stated plainly."
+   ],
+   "A5": [
+    2,
+    "Firm."
+   ],
+   "A6": [
+    2,
+    "Single settled answer."
+   ],
+   "A7": [
+    2,
+    "Answers question."
+   ],
+   "A8": [
+    2,
+    "Not relevant."
+   ],
+   "A9": [
+    2,
+    "Clear."
+   ],
+   "A10": [
+    2,
+    "One line with minimal context."
+   ]
+  },
+  "rank": [
+   "A",
+   "C",
+   "B"
+  ],
+  "why": "A gives the correct one-line answer with just enough context and nothing more. C is equally correct with slightly more detail, while B wraps a one-word fact in a full analysis framework, which fails proportion.",
+  "checked": [
+   "Capital of Australia = Canberra -> correct",
+   "Parliament in Canberra since 1927 -> correct (Provisional Parliament House opened 9 May 1927)",
+   "Federal parliament sat in Melbourne 1901-1927 -> correct"
+  ]
+ },
+ "H2": {
+  "C": {
+   "A1": [
+    2,
+    "Checked 1993 letter 'know-something investor... conventional diversification makes no sense for you' and 'policy of portfolio concentration may well decrease risk' -> both genuine 1993 letter text; know-nothing/index fund advice also in that letter."
+   ],
+   "A2": [
+    2,
+    "One-liner explicitly 'attributed', Hagstrom link hedged as 'some sources'; no invented source."
+   ],
+   "A3": [
+    2,
+    "Notes no single quote and that the famous line is weakly sourced."
+   ],
+   "A4": [
+    2,
+    "Clearly separates strong vs weak sourcing."
+   ],
+   "A5": [
+    2,
+    "Confidence matches: firm on letter, hedged on one-liner."
+   ],
+   "A6": [
+    2,
+    "Presents both concentration and index-fund sides."
+   ],
+   "A7": [
+    2,
+    "Delivers exact quote, place, year as asked."
+   ],
+   "A8": [
+    1,
+    "Says how to verify but not explicitly what would change the answer."
+   ],
+   "A9": [
+    2,
+    "Gives a safe citable quote directly."
+   ],
+   "A10": [
+    2,
+    "Right length."
+   ]
+  },
+  "B": {
+   "A1": [
+    2,
+    "1993 letter quotes verified as genuine; 2013 letter instructions for wife's trust (90% S&P 500 index) correct."
+   ],
+   "A2": [
+    2,
+    "Clearly flags memory and unverified one-liner origin."
+   ],
+   "A3": [
+    2,
+    "Points out question assumes one definitive quote."
+   ],
+   "A4": [
+    2,
+    "Explicit Known/Inferred/Unknown."
+   ],
+   "A5": [
+    1,
+    "Stack of precise percentages (90%, 70%, 75%, <40%) not grounded in evidence; under-confident on wording that is in fact exact."
+   ],
+   "A6": [
+    2,
+    "Gives inversion that Buffett favours index funds for most."
+   ],
+   "A7": [
+    2,
+    "Answers question."
+   ],
+   "A8": [
+    2,
+    "Failure conditions stated."
+   ],
+   "A9": [
+    2,
+    "Clear recommendation of what to cite."
+   ],
+   "A10": [
+    1,
+    "Framework sections add bulk to a quote lookup."
+   ]
+  },
+  "A": {
+   "A1": [
+    2,
+    "1993 letter quote correct; 2013 letter 90% S&P 500 index instruction correct."
+   ],
+   "A2": [
+    2,
+    "No fabricated source; one-liner origin left unconfirmed."
+   ],
+   "A3": [
+    2,
+    "Notes he said several things for different audiences."
+   ],
+   "A4": [
+    2,
+    "Explicit confidence breakdown by item."
+   ],
+   "A5": [
+    1,
+    "Rates confidence in the letter wording 'low to medium' though the wording is exact; somewhat under-calibrated."
+   ],
+   "A6": [
+    2,
+    "Both sides of his view."
+   ],
+   "A7": [
+    2,
+    "Answers what was asked."
+   ],
+   "A8": [
+    2,
+    "Says to use the letter wording if it differs."
+   ],
+   "A9": [
+    2,
+    "Clear verification path."
+   ],
+   "A10": [
+    2,
+    "Proportionate."
+   ]
+  },
+  "rank": [
+   "C",
+   "A",
+   "B"
+  ],
+  "why": "C supplies two verbatim, correctly sourced passages from the 1993 letter and correctly treats the famous one-liner as only attributed, which is exactly what an expert needs. A is accurate but gives less quotable material and is overly hedged, and B is accurate but padded with framework sections and arbitrary percentages.",
+  "checked": [
+   "'If you are a know-something investor... conventional diversification makes no sense for you' -> genuine, 1993 Berkshire letter",
+   "'a policy of portfolio concentration may well decrease risk if it raises...' -> genuine, 1993 letter (confirmed via secondary quotation)",
+   "Know-nothing investor / index fund in 1993 letter -> correct",
+   "2013 letter: 90% of wife's bequest in low-cost S&P 500 index fund -> correct",
+   "'Diversification is protection against ignorance' primary source -> no confirmed primary source found; all three answers correctly hedge"
+  ]
+ },
+ "H3": {
+  "C": {
+   "A1": [
+    2,
+    "Recomputed table: 600 baht/kg x 18 g = 10.8, +30% = 3.24; 400->2.16; 900->4.86; 1,200->6.48: all correct."
+   ],
+   "A2": [
+    1,
+    "'Most shops see only 2-5 baht' and 'if volume drops <=10% total profit usually still rises' are unlabelled generalizations presented as fact."
+   ],
+   "A3": [
+    2,
+    "Corrects the hidden assumption that a 30% bean rise = 30% cup-cost rise."
+   ],
+   "A4": [
+    1,
+    "Asks for missing data but does not explicitly separate known/unknown."
+   ],
+   "A5": [
+    1,
+    "'Most shops' claims stated more firmly than evidence allows."
+   ],
+   "A6": [
+    2,
+    "Several alternatives: 5 baht, per-menu, tiers, cost renegotiation."
+   ],
+   "A7": [
+    2,
+    "Targets per-cup cost and margin, not the headline 30%."
+   ],
+   "A8": [
+    2,
+    "Lists conditions under which 10 baht is justified."
+   ],
+   "A9": [
+    2,
+    "Concrete formula, table, decision rule."
+   ],
+   "A10": [
+    2,
+    "Well structured, appropriate length."
+   ]
+  },
+  "B": {
+   "A1": [
+    2,
+    "Checked 800 baht/kg x 18 g = 14.4, +30% = 4.32; break-even 10/0.30 = 33.3 baht: correct."
+   ],
+   "A2": [
+    2,
+    "Example explicitly labelled hypothetical; general pricing principle labelled as not measured."
+   ],
+   "A3": [
+    2,
+    "Names the hidden assumption explicitly."
+   ],
+   "A4": [
+    2,
+    "Explicit known/inferred/unknown list."
+   ],
+   "A5": [
+    1,
+    "Rates confidence in straightforward arithmetic only 'medium', an odd under-calibration."
+   ],
+   "A6": [
+    2,
+    "Gives strongest counter-argument and alternatives."
+   ],
+   "A7": [
+    2,
+    "Distinguishes keeping baht margin vs % margin, the real decision variable."
+   ],
+   "A8": [
+    2,
+    "Clear threshold (>33 baht bean cost) and competitor conditions."
+   ],
+   "A9": [
+    2,
+    "Actionable steps and offer to compute per menu."
+   ],
+   "A10": [
+    2,
+    "Concise and complete."
+   ]
+  },
+  "A": {
+   "A1": [
+    1,
+    "Table arithmetic correct (500->2.7, 800->4.3, 1,200->6.5), but failure condition '>1,500 baht/kg' makes 10 baht right is inconsistent: 1,500 x 18 g x 0.3 = 8.1 baht."
+   ],
+   "A2": [
+    2,
+    "Bean-share 10-25% and examples labelled inferred/hypothetical."
+   ],
+   "A3": [
+    2,
+    "Challenges 10-baht and pass-through assumptions."
+   ],
+   "A4": [
+    2,
+    "Explicit Known/Inferred/Unknown."
+   ],
+   "A5": [
+    1,
+    "Precise '65%' confidence has no basis."
+   ],
+   "A6": [
+    2,
+    "Wide set of options incl. roaster-specific point."
+   ],
+   "A7": [
+    2,
+    "Focuses on total profit = margin x volume."
+   ],
+   "A8": [
+    2,
+    "Clear failure conditions."
+   ],
+   "A9": [
+    2,
+    "Actionable with decision rules."
+   ],
+   "A10": [
+    1,
+    "Very long framework output for a pricing question."
+   ]
+  },
+  "rank": [
+   "B",
+   "C",
+   "A"
+  ],
+  "why": "B gets the arithmetic and the key margin-vs-percentage distinction right with honest labelling and no padding. C is equally practical but states rules of thumb as fact, and A, though thorough, is bloated, uses an arbitrary 65% and has an inconsistent threshold.",
+  "checked": [
+   "Per-cup bean cost increases in all three tables -> recomputed, all correct",
+   "B's 33-baht break-even (10/0.30) -> correct",
+   "A's '>1,500 baht/kg' failure condition -> 1,500x0.018x0.3 = 8.1 baht, below 10, so inconsistent"
+  ]
+ },
+ "H4": {
+  "C": {
+   "A1": [
+    2,
+    "Checked brain ~2% weight/~20% energy, William James 'potential' origin, BDNF/exercise, retrieval/spacing: all correct."
+   ],
+   "A2": [
+    2,
+    "No invented studies or figures; recommendations stated generally."
+   ],
+   "A3": [
+    2,
+    "Rejects the 10% myth up front with evidence."
+   ],
+   "A4": [
+    2,
+    "Explicit Known/Inferred/Unknown split."
+   ],
+   "A5": [
+    1,
+    "'95%' that a settled myth is false is under-firm, and '80-85%' on technique ranking is an unsupported precise number."
+   ],
+   "A6": [
+    2,
+    "Steelmans 'untapped potential' sense of the claim."
+   ],
+   "A7": [
+    2,
+    "Redirects to the real drivers (sleep, practice, health)."
+   ],
+   "A8": [
+    2,
+    "States what imaging evidence would reverse it; medical failure condition."
+   ],
+   "A9": [
+    2,
+    "Clear, ranked, actionable list."
+   ],
+   "A10": [
+    1,
+    "Heavy framework jargon (Kalama10, Ariya4, Shadow Gate) for a myth question."
+   ]
+  },
+  "B": {
+   "A1": [
+    2,
+    "Checked imaging, lesion, 2%/20% energy, James origin, pruning argument (Beyerstein-style): all standard and correct."
+   ],
+   "A2": [
+    2,
+    "No fabricated specifics."
+   ],
+   "A3": [
+    2,
+    "Calls the premise a myth immediately."
+   ],
+   "A4": [
+    1,
+    "Facts are not separated into established vs inferred beyond 'probably' on origin."
+   ],
+   "A5": [
+    2,
+    "Firm where firm."
+   ],
+   "A6": [
+    2,
+    "Settled answer; covers what can be improved instead."
+   ],
+   "A7": [
+    2,
+    "Answers the real need."
+   ],
+   "A8": [
+    1,
+    "No statement of what evidence would change the conclusion."
+   ],
+   "A9": [
+    2,
+    "Actionable list incl. interleaving."
+   ],
+   "A10": [
+    2,
+    "Length fits."
+   ]
+  },
+  "A": {
+   "A1": [
+    2,
+    "Checked imaging, lesion, 'about a fifth of resting energy', seizure point, brain-training transfer: all correct."
+   ],
+   "A2": [
+    2,
+    "Explicitly declines to give effect sizes/citations from memory; origin flagged as unchecked."
+   ],
+   "A3": [
+    2,
+    "Rejects premise in first sentence."
+   ],
+   "A4": [
+    2,
+    "Separates high-confidence myth refutation from medium-confidence technique list."
+   ],
+   "A5": [
+    2,
+    "HIGH vs MEDIUM-HIGH calibrated without fake numbers."
+   ],
+   "A6": [
+    2,
+    "Gives strongest case for the myth and answers it."
+   ],
+   "A7": [
+    2,
+    "Addresses real goal of thinking better."
+   ],
+   "A8": [
+    2,
+    "Names evidence that would change it."
+   ],
+   "A9": [
+    2,
+    "Concise actionable list."
+   ],
+   "A10": [
+    2,
+    "Well proportioned."
+   ]
+  },
+  "rank": [
+   "A",
+   "B",
+   "C"
+  ],
+  "why": "A refutes the myth with correct evidence, steelmans it, and calibrates confidence without fake numbers or jargon. B is equally accurate and practical but less explicit about uncertainty, while C buries a good answer under framework labels and arbitrary percentages.",
+  "checked": [
+   "Brain ~2% body mass, ~20% resting energy -> correct (standard physiology)",
+   "William James 'small part of potential' as myth origin -> commonly cited, hedged in all answers, acceptable",
+   "Brain-training transfer weak -> consistent with consensus (e.g., Simons et al. 2016 review)",
+   "Neurons unused are pruned (B) -> a standard Beyerstein-type argument, acceptable"
+  ]
+ }
+}

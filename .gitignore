@@ -7,3 +7,5 @@ Thumbs.db
 NOTES.md
 TODO.md
 scratch/
+__pycache__/
+.pytest_cache/

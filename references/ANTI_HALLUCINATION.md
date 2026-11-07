@@ -18,7 +18,11 @@ Confidence too high            L4      Inversion
 Missing contradicting data     L4      Blind Spot
 Biased data sources            L4      Interest Map
 Analysis paralysis             L4      Meta-Void
-No confidence declared         L5      Confidence field
+No confidence declared         L5      Confidence with its basis
+Invented figure to fill field  —       Verification Rules
+Pseudo-precise confidence %    —       Confidence Rules
+Misattributed quote or source  —       Verification Rules
+Framework on a one-line fact   —       Proportion
 ```
 
 ---
@@ -49,7 +53,7 @@ Fix: L4 Mirror. Name hidden assumption before answering.
 
 ## Source 7 — Overconfidence
 Detection: "Definitely / certainly / always" without proportional evidence.
-Fix: L4 Inversion. If HIGH → FRAGILE → cap ≤70%.
+Fix: L4 Inversion. If HIGH → FRAGILE → confidence at most MEDIUM.
 
 ## Source 8 — Missing Contradicting Data
 Detection: Conclusion too clean. No acknowledgment of what would change it.
@@ -65,7 +69,24 @@ Fix: L4 Meta-Void. NOISE → decide. OBVIOUS → act.
 
 ## Source 11 — False Certainty in Output
 Detection: No confidence qualifier. No unknowns. Looks like ground truth.
-Fix: L5 Confidence field mandatory.
+Fix: L5 — confidence as a level with its basis (COMPACT and FULL modes).
+
+## Source 12 — Template-Filling
+Detection: A specific number appears exactly where a template asked for one, with no source.
+Fix: Verification Rules. "Unknown — here is how to get it" beats an invented figure.
+
+## Source 13 — Pseudo-Precision
+Detection: "85% confident", "~70%" with no base rate, model or data behind it.
+Fix: Confidence Rules. HIGH / MEDIUM / LOW plus basis; a % only when computed.
+
+## Source 14 — Misattribution
+Detection: A quote, study finding or numbered list attributed to a source without checking.
+Fix: Verification Rules. Quote exactly or say it is a paraphrase; describe studies only as
+deep as you are sure of. FPCOS's Kalama10 is an adaptation — never cite it as the sutta.
+
+## Source 15 — Over-Processing
+Detection: A settled fact wrapped in layer headings and a confidence field.
+Fix: Proportion. DIRECT mode — the layers run silently; length is not evidence.
 
 ---
 

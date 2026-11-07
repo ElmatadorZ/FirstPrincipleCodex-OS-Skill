@@ -86,3 +86,88 @@ def test_inheritance_contract_marks_layers_non_removable():
     # (may not be removed). At least the core ones must be there.
     assert "SKILL INTERFACE CONTRACT" in body
     assert body.count("❌ No") >= 4
+
+
+# ---------------------------------------------------------------- v1.1
+# A blind A/B test of v1.0 (evals/2026-11-07/) found the skill made answers
+# worse on exactly what it promises: invented specifics to fill template fields,
+# confidence percentages with no basis, misattributed Kalama numbering, and a
+# full framework around one-line facts. These tests pin the fixes.
+
+def _referenced_paths(text):
+    return sorted(set(re.findall(r"`((?:references|example|tools|tests)/[^`\s]+)`", text)))
+
+
+def _exists_case_exact(rel):
+    here = ROOT
+    for part in Path(rel).parts:
+        if not here.is_dir() or part not in {p.name for p in here.iterdir()}:
+            return False
+        here = here / part
+    return True
+
+
+def test_every_referenced_file_exists_case_exact():
+    # v1.0 pointed at references/*.md while the folder was Reference/: every
+    # reference file was unreachable on Linux, where skills actually run.
+    _, body = _split()
+    paths = _referenced_paths(body)
+    assert len(paths) >= 6
+    missing = [p for p in paths if not _exists_case_exact(p)]
+    assert not missing, missing
+
+
+def test_description_does_not_demand_always_trigger():
+    fm, _ = _split()
+    assert not re.search(r"\bALWAYS trigger\b|do NOT skip", fm["description"])
+    assert "Being skipped" not in fm["metadata"]["not_for"]
+
+
+def test_proportion_modes_scale_output_not_thinking():
+    _, body = _split()
+    assert re.search(r"^## PROPORTION", body, re.M)
+    for mode in ("DIRECT", "COMPACT", "FULL"):
+        assert f"**{mode}**" in body
+    assert re.search(r"false premise is corrected in the first sentence", body)
+
+
+def test_epistemic_core_has_five_moves():
+    _, body = _split()
+    core = body.split("## EPISTEMIC CORE", 1)[1].split("\n## ", 1)[0]
+    assert len(re.findall(r"^\d\. \*\*", core, re.M)) == 5
+
+
+def test_shadow_gate_runs_in_every_mode():
+    _, body = _split()
+    gate = body.split("## L4", 1)[1].split("\n## ", 1)[0]
+    assert re.search(r"runs on every task, DIRECT\s+included", gate)
+
+
+def test_verification_rules_forbid_invented_specifics():
+    _, body = _split()
+    rules = body.split("## VERIFICATION RULES", 1)[1].split("\n## ", 1)[0]
+    for phrase in ("verified or marked", "Unknown beats invented", "Quote exactly"):
+        assert phrase in rules
+
+
+def test_confidence_is_grounded_not_a_bare_percentage():
+    _, body = _split()
+    assert "Confidence explicitly stated as %" not in body
+    conf = body.split("## CONFIDENCE RULES", 1)[1].split("\n## ", 1)[0]
+    assert "HIGH / MEDIUM / LOW" in conf
+    assert re.search(r"percentage only when it is computed", conf)
+    assert "not assessable" in conf
+
+
+def test_kalama10_is_marked_as_an_adaptation_with_the_canonical_list():
+    _, body = _split()
+    assert re.search(r"Kalama10 is FPCOS's own adaptation", body)
+    ref = (ROOT / "references" / "CODEX_KALAMA.md").read_text(encoding="utf-8")
+    # the sutta's own first and last grounds, so the canonical order is on hand
+    assert "anussava" in ref and "samaṇo no garu" in ref
+
+
+def test_contract_includes_verification_rules():
+    _, body = _split()
+    contract = body.split("## SKILL INTERFACE CONTRACT", 1)[1].split("\n## ", 1)[0]
+    assert re.search(r"\| 06 \| Follow the Verification Rules", contract)

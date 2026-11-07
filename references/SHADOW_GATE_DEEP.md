@@ -33,7 +33,7 @@ Method:
 Strength rating:
 - LOW: Easily defeated.
 - MED: Holds partial ground. True under some conditions.
-- HIGH: Holds equal ground → FRAGILE → cap confidence ≤70%.
+- HIGH: Holds equal ground → FRAGILE → confidence at most MEDIUM.
 
 If HIGH: State explicitly: "FRAGILE. Opposite holds under: [X, Y, Z]"
 
@@ -80,8 +80,16 @@ YES → SIGNAL | NO → NOISE | Feels uncomfortable → OBVIOUS
 ## Verdict System
 
 CONSISTENT → All 5 passed. Proceed.
-FRAGILE    → Inversion HIGH or critical Blind Spot missing. Cap ≤70%.
+FRAGILE    → Inversion HIGH or critical Blind Spot missing. Confidence at most MEDIUM.
 REBUILD    → Fatal flaw. Return to L1.
+
+---
+
+## How much of it to show
+
+The Shadow Gate always runs. What the reader sees follows the Proportion modes in SKILL.md:
+DIRECT — silent (a false premise is still corrected); COMPACT — the premise and the strongest
+counter, as sentences; FULL — all five protocols.
 
 ---
 
